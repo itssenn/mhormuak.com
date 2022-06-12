@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    width: 100%;
+    height: 60px;
+
+    background: rgb(60,5,60);
+
+    border: solid rgb(50,5,50);
+
+    border-width: 0 0 2px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 3.3%;
+    left: 60%;
+    transform: translate(50%,-50%);
+
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-link {
+    margin-right: 2.5rem;
+}
+
+.menu-link a {
+    text-decoration: none;
+
+    color: #fff;
+    font-size:1.8rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
